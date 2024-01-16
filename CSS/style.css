@@ -6,253 +6,436 @@ margin-top:20px;
 margin-bottom:20px; 
 margin-left:20px; 
 margin-right:20px;
-height: 2770px;
+height: 3650px;
 width: 1222px;
 }
+
 body {
-background: url("../Images/dotted paper background.png") center center fixed;
-background-size: cover;
+  background: url("../Images/dotted paper background.png") center center fixed;
+  background-size: cover;
 }
-  
+
 /* Navigation Bar Styles */
 .dashed-border {
-position: absolute;
-margin-left: 0.5%;
-width: 1180px;
-height: 65px;
-left: 33px;
-top: 5%;
-background: white;
-color: black;
-border-radius: 50px;
-border: 2px dashed;
+  position: absolute;
+  margin-left: 2.5%;
+  width: 95%;
+  height: 65px;
+  left: 20px;
+  top: 5%;
+  background: white;
+  color: black;
+  border-radius: 50px;
+  border: 2px dashed;
 }
-
 
 .Nav {
-margin-right: 2%;
-margin-top: 0.6%;
+  margin-right: 2%;
+  margin-top: 0.6%;
 }
-  
+
 .topnav {
-display: flex;
-justify-content: flex-end;
-align-items: center;
-margin-top: -37px;
-margin-right: 150px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: -37px;
+  margin-right: 150px;
 }
-  
+
 .topnav a {
-color: black;
-text-align: center;
-padding: 14px 16px;
-text-decoration: none;
-font-size: 20px;
-font-family: "Gill Sans MT"; 
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Gill Sans MT";
 }
-  
+
 .topnav a:hover {
-text-decoration: underline;
+  text-decoration: underline;
 }
-  
+
 .Navbut {
-display: flex;
-justify-content: flex-end;
-align-items: center;
-margin-top: 13px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 13px;
 }
-  
+
 .Navbut a {
-color: white;
-padding: 5px 20px;
-text-decoration: none;
-font-size: 20px;
-font-family: "Gill Sans MT";
-background-color: black;
-border-radius: 30px;
-    
+  color: white;
+  padding: 5px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Gill Sans MT";
+  background-color: black;
+  border-radius: 30px;
 }
-  
+
 .Navbut a:hover {
-background-color: black;
-border-radius: 30px;
-color: white;
+  background-color: black;
+  border-radius: 30px;
+  color: white;
 }
-  
+
 .Navbut a.active {
-color: black;
-border-radius: 30px;
-}
-  
-.thick-line-1 {
-width: 3.5px; 
-height: 30px; 
-background-color: black;
+  color: black;
+  border-radius: 30px;
 }
 
+.thick-line-1,
 .thick-line-2 {
-width: 3.5px; 
-height: 30px; 
-background-color: black;
+  width: 3.5px;
+  height: 30px;
+  background-color: black;
 }
-
-
 
 /* Circular boxes */
-
 .circular-box-1,
 .circular-box-2,
 .circular-box-3 {
-position: absolute;
-width: 1180px;
-height: 40px;
-background: black;
-color: black;
-border-radius: 50px;
-margin-left: 20px;
+  position: absolute;
+  width: 95%;
+  height: 65px;
+  background: black;
+  color: black;
+  border-radius: 50px;
+  margin-left: 20px;
 }
-  
+
 .circular-box-text-1,
 .circular-box-text-2,
 .circular-box-text-3 {
-margin-left: 4px;
-margin-top: -10px;
-margin-bottom: 10px;
-font-size: 25px;
-font-family: "Gill Sans MT";
-color: white;
+  margin-left: 4px;
+  margin-top: 33px;
+  margin-bottom: 10px;
+  font-size: 28px;
+  font-family: "Gill Sans MT";
+  color: white;
 }
-  
-/*Images*/
 
+/* Images */
 .hero-photo {
-width:1150px; 
-height:240px;
-padding-top: 210px; 
-padding-left:38px; 
-padding-right:0px;
-border: transparent;
-border-radius: 30px;
+  width: 95%;
+  height: auto;
+  padding-top: 210px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: transparent;
+  border-radius: 30px;
 }
-  
-  
+
 .profile-image {
-border:solid thin black;
-border-radius: 50%; 
-margin-bottom:20px; 
-margin-top: 500px; 
-margin-left: 100px;
-width: 300px;
-height: 300px;
-
+  border: solid thin black;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
 }
-  
+
 .about-me-image {
-width: 700px;
-height: 350px;
-margin-left: 50px;
-margin-top: 40px;
-    
-}
-  
-.text {
-word-spacing: 8px;
-margin-top: -20px;
+  width: 100%;
+  height: auto;
+  margin-left: 20px;
+  margin-top: 30px;
 }
 
+.text {
+  word-spacing: 8px;
+  margin-top: -20px;
+}
 
 .circular-box-1 {
-top: 700px;
+  top: 700px;
 }
-  
-.circular-box-2 {
-top: 830px;
-margin-left: -3px;
-}
-  
-.circular-box-3 {
-top: 1000px;
-margin-left: 4px;
-}
-  
-/*Case study items*/
 
+.circular-box-2 {
+  top: 750px;
+  margin-left: -3px;
+}
+
+.circular-box-3 {
+  float: inline-end;
+  margin-top: 1300px;
+  margin-left: 10px;
+}
+
+.circular-box-text-3 {
+  display: flex;
+  justify-content: center;
+  margin-top: -5px;
+  margin-bottom: 10px;
+  font-size: 35px;
+  font-family: "Gill Sans MT";
+  color: white;
+}
+
+/* Case study items */
 .case-study-list-item-1,
 .case-study-list-item-2,
 .case-study-list-item-3,
 .case-study-list-item-4 {
-border: solid black;
-border-radius: 10px;
-width: 1180px;
-height: 130px; 
-
+  border: solid thin black;
+  border-radius: 10px;
+  background-color: white;
+  width: 95%;
+  height: 130px;
+  margin-left: 20px;
 }
-  
+
 .case-study-list-item-1 {
-margin-top: 180px;
-
+  margin-top: 100px;
 }
-.case-study-list-item-2,
-.case-study-list-item-3,
+
+.case-study-list-item-2 {
+  margin-top: 20px;
+}
+
+.case-study-list-item-3 {
+  margin-top: 20px;
+}
+
 .case-study-list-item-4 {
   margin-top: 20px;
-  
-  }
+}
 
 .case-study-list-text-1,
 .case-study-list-text-2,
 .case-study-list-text-3,
-.case-study-list-text-4  {
-margin-top: 20px;
-margin-bottom: 25px;
-font-family: "Gill Sans MT";
-font-size: 35px;
-font-weight: bold;
-color: black;
-margin-left: 10px;
-  
+.case-study-list-text-4 {
+  margin-top: 40px;
+  margin-bottom: 25px;
+  font-family: "Gill Sans MT";
+  font-size: 35px;
+  font-weight: bold;
+  color: black;
+  margin-left: 15px;
 }
-  
-  
-/*Case study tags*/
+
+/* Case study tags */
 
 .tag-1,
 .tag-2,
 .tag-3,
-.tag-4 {
-  border: solid;
-  border-color: black;
-  border-radius: 30px;
-  font-size: 15px;
+.tag-4,
+.tag-5,
+.tag-6,
+.tag-7,
+.tag-8,
+.tag-9,
+.tag-10,
+.tag-11,
+.tag-12,
+.tag-13,
+.tag-14,
+.tag-15,
+.tag-16 {
+  font-size: 20px;
   font-family: "Gill Sans MT";
-  margin-top: -30px;
-  margin-left: 20px;
-
+  margin-left: 15px;
 }
-  
+
+.tag-1 {
+  margin-top: -53px;
+  margin-left: 85%;
+  border: solid thin black;
+  border-radius: 30px;
+  width: 110px;
+}
+
+.tag-2 {
+  margin-top: -23.5px;
+  margin-left: 70%;
+  border: solid thin black;
+  border-radius: 30px;
+  width: 120px;
+}
+
+.tag-3 {
+  margin-top: -24.5px;
+  margin-left: 50%;
+  border: solid thin black;
+  border-radius: 30px;
+  width: 150px;
+}
+
+.tag-4 {
+  margin-top: -24.5px;
+  margin-left: 25%;
+  border: solid thin black;
+  border-radius: 30px;
+  width: 150px;
+}
+
+.tag-5 {
+  margin-top: -53px;
+  margin-left: 85%;
+  border: solid thin black;
+  border-radius: 30px;
+  width: 110px;
+}
+
+.tag-6 {
+  margin-top: -23.5px;
+  margin-left: 70%;
+  border: solid thin black;
+  border-radius: 30px;
+  width: 120px;
+}
+
+.tag-7 {
+  margin-top: -24.5px;
+  margin-left: 50%;
+  border: solid thin black;
+  border-radius: 30px;
+  width: 150px;
+}
+
+.tag-8 {
+  margin-top: -24.5px;
+  margin-left: 25%;
+  border: solid thin black;
+  border-radius: 30px;
+  width: 150px;
+}
+.tag-9 {
+  margin-top: -53px;
+  margin-left: 85%;
+  border: solid thin black;
+  border-radius: 30px;
+  width: 110px;
+}
+
+.tag-10 {
+  margin-top: -23.5px;
+  margin-left: 70%;
+  border: solid thin black;
+  border-radius: 30px;
+  width: 120px;
+}
+
+.tag-11 {
+  margin-top: -24.5px;
+  margin-left: 50%;
+  border: solid thin black;
+  border-radius: 30px;
+  width: 150px;
+}
+
+.tag-12 {
+  margin-top: -24.5px;
+  margin-left: 25%;
+  border: solid thin black;
+  border-radius: 30px;
+  width: 150px;
+}
+
+.tag-13 {
+  margin-top: -53px;
+  margin-left: 85%;
+  border: solid thin black;
+  border-radius: 30px;
+  width: 110px;
+}
+
+.tag-14 {
+  margin-top: -23.5px;
+  margin-left: 70%;
+  border: solid thin black;
+  border-radius: 30px;
+  width: 120px;
+}
+
+.tag-15 {
+  margin-top: -24.5px;
+  margin-left: 50%;
+  border: solid thin black;
+  border-radius: 30px;
+  width: 150px;
+}
+
+.tag-16 {
+  margin-top: -24.5px;
+  margin-left: 25%;
+  border: solid thin black;
+  border-radius: 30px;
+  width: 150px;
+}
+
+
+.tag-5,
+.tag-6,
+.tag-7,
+.tag-8,
+.tag-9,
+.tag-10,
+.tag-11,
+.tag-12,
+.tag-13,
+.tag-14,
+.tag-15,
+.tag-16 {
+  margin-top: -10px;
+}
+
+
+
+
+
 /* Footer */
 .footer {
-box-sizing: border-box;
-background: white;
-border: 2px dashed;
-color: black;
-border-radius: 50px;
-width: 1180px;
-height: 65px;
-margin-top: 115%;
-margin-left: 17px;
-  
+  box-sizing: border-box;
+  background: white;
+  border: 2px dashed;
+  color: black;
+  border-radius: 50px;
+  width: 95%;
+  height: 65px;
+  margin-top: 1400px;
+  margin-left: 30px;
 }
+
 .footer-text {
-font-size: 15px;
-font-family: arial;
-margin-top: -40px;
-margin-left: 20px;
+  font-size: 15px;
+  font-family: arial;
+  margin-top: -40px;
+  margin-left: 20px;
 }
-  
+
 .social-media-icons {
-width: 160px;
-height: 30px;
-margin-left: 1000px;
-padding-top: 15px;
+  width: 160px;
+  height: 30px;
+  margin-left: 80%;
+  padding-top: 15px;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+  .page-border,
+  .dashed-border,
+  .circular-box-1,
+  .circular-box-2,
+  .circular-box-3,
+  .hero-photo,
+  .profile-image,
+  .about-me-image,
+  .case-study-list-item-1,
+  .case-study-list-item-2,
+  .case-study-list-item-3,
+  .case-study-list-item-4,
+  .footer {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .topnav {
+    margin-right: 5%;
+  }
+
+  .social-media-icons {
+    margin-left: 5%;
+  }
 }
