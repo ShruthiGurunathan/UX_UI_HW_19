@@ -4,11 +4,13 @@ border: 2px solid black;
 border-radius: 10px;
 margin-top:20px; 
 margin-bottom:20px; 
-margin-left:20px; 
+margin-left:23px; 
 margin-right:20px;
-height: 3650px;
+height: 2700px;
 width: 1222px;
 }
+
+
 
 body {
   background: url("../Images/dotted paper background.png") center center fixed;
@@ -18,10 +20,9 @@ body {
 /* Navigation Bar Styles */
 .dashed-border {
   position: absolute;
-  margin-left: 2.5%;
-  width: 95%;
+  width: 91%;
   height: 65px;
-  left: 20px;
+  margin-left: 35px;
   top: 5%;
   background: white;
   color: black;
@@ -95,12 +96,12 @@ body {
 .circular-box-2,
 .circular-box-3 {
   position: absolute;
-  width: 95%;
+  width: 91%;
   height: 65px;
   background: black;
   color: black;
   border-radius: 50px;
-  margin-left: 20px;
+  margin-left: 35px;
 }
 
 .circular-box-text-1,
@@ -115,11 +116,12 @@ body {
 }
 
 /* Images */
+
 .hero-photo {
   width: 95%;
   height: auto;
   padding-top: 210px;
-  padding-left: 20px;
+  padding-left: 34px;
   padding-right: 20px;
   border: transparent;
   border-radius: 30px;
@@ -128,19 +130,23 @@ body {
 .profile-image {
   border: solid thin black;
   border-radius: 50%;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  margin-left: 20px;
+  margin-top: 500px;
+  margin-left: 90px;
   width: 100%;
   max-width: 300px;
   height: auto;
 }
 
-.about-me-image {
-  width: 100%;
-  height: auto;
-  margin-left: 20px;
-  margin-top: 30px;
+.about-me {
+  display: flex;
+  justify-content: center;
+  margin-top: -310px;
+  margin-left: 440px;
+  margin-right: 45px;
+  font-size: 25px;
+  font-family: "Gill Sans MT";
+  background-color: white;
+  
 }
 
 .text {
@@ -149,18 +155,16 @@ body {
 }
 
 .circular-box-1 {
-  top: 700px;
+margin-top: -800px;
 }
 
 .circular-box-2 {
-  top: 750px;
-  margin-left: -3px;
+margin-top: -80px;
 }
 
 .circular-box-3 {
   float: inline-end;
-  margin-top: 1300px;
-  margin-left: 10px;
+  margin-top: 410px;
 }
 
 .circular-box-text-3 {
@@ -181,15 +185,14 @@ body {
   border: solid thin black;
   border-radius: 10px;
   background-color: white;
-  width: 95%;
+  width: 93.2%;
   height: 130px;
-  margin-left: 20px;
+  margin-left: 39.2px;
 }
 
 .case-study-list-item-1 {
-  margin-top: 100px;
+margin-top: 300px;
 }
-
 .case-study-list-item-2 {
   margin-top: 20px;
 }
@@ -231,157 +234,175 @@ body {
 .tag-12,
 .tag-13,
 .tag-14,
-.tag-15,
-.tag-16 {
+.tag-15 {
   font-size: 20px;
   font-family: "Gill Sans MT";
   margin-left: 15px;
 }
 
 .tag-1 {
-  margin-top: -53px;
+  margin-top: -50px;
   margin-left: 85%;
   border: solid thin black;
   border-radius: 30px;
   width: 110px;
+  display: flex;
+  justify-content: center;
 }
 
 .tag-2 {
-  margin-top: -23.5px;
-  margin-left: 70%;
+  margin-top: -24px;
+  margin-left: 72%;
   border: solid thin black;
   border-radius: 30px;
   width: 120px;
+  display: flex;
+  justify-content: center;
 }
 
 .tag-3 {
   margin-top: -24.5px;
-  margin-left: 50%;
+  margin-left: 56%;
   border: solid thin black;
   border-radius: 30px;
   width: 150px;
+  display: flex;
+  justify-content: center;
 }
 
 .tag-4 {
   margin-top: -24.5px;
-  margin-left: 25%;
+  margin-left: 40%;
   border: solid thin black;
   border-radius: 30px;
   width: 150px;
+  display: flex;
+  justify-content: center;
 }
 
 .tag-5 {
-  margin-top: -53px;
+  margin-top: -50px;
   margin-left: 85%;
   border: solid thin black;
   border-radius: 30px;
   width: 110px;
+  display: flex;
+  justify-content: center;
 }
 
 .tag-6 {
-  margin-top: -23.5px;
-  margin-left: 70%;
+  margin-top: -24px;
+  margin-left: 72%;
   border: solid thin black;
   border-radius: 30px;
   width: 120px;
+  display: flex;
+  justify-content: center;
 }
 
 .tag-7 {
-  margin-top: -24.5px;
-  margin-left: 50%;
+  margin-top: -24px;
+  margin-left: 56%;
   border: solid thin black;
   border-radius: 30px;
   width: 150px;
+  display: flex;
+  justify-content: center;
 }
 
 .tag-8 {
-  margin-top: -24.5px;
-  margin-left: 25%;
+  margin-top: -24px;
+  margin-left: 40%;
   border: solid thin black;
   border-radius: 30px;
   width: 150px;
+  display: flex;
+  justify-content: center;
 }
+
 .tag-9 {
-  margin-top: -53px;
+  margin-top: -50px;
   margin-left: 85%;
   border: solid thin black;
   border-radius: 30px;
   width: 110px;
+  display: flex;
+  justify-content: center;
 }
 
 .tag-10 {
-  margin-top: -23.5px;
-  margin-left: 70%;
+  margin-top: -24px;
+  margin-left: 72%;
   border: solid thin black;
   border-radius: 30px;
   width: 120px;
+  display: flex;
+  justify-content: center;
 }
 
 .tag-11 {
-  margin-top: -24.5px;
-  margin-left: 50%;
+  margin-top: -24px;
+  margin-left: 56%;
   border: solid thin black;
   border-radius: 30px;
   width: 150px;
+  display: flex;
+  justify-content: center;
 }
 
 .tag-12 {
-  margin-top: -24.5px;
-  margin-left: 25%;
-  border: solid thin black;
-  border-radius: 30px;
-  width: 150px;
-}
-
-.tag-13 {
-  margin-top: -53px;
+  margin-top: -50px;
   margin-left: 85%;
   border: solid thin black;
   border-radius: 30px;
   width: 110px;
+  display: flex;
+  justify-content: center;
 }
 
-.tag-14 {
-  margin-top: -23.5px;
-  margin-left: 70%;
+.tag-13 {
+  margin-top: -24px;
+  margin-left: 72%;
   border: solid thin black;
   border-radius: 30px;
   width: 120px;
+  display: flex;
+  justify-content: center;
+}
+
+.tag-14 {
+  margin-top: -24px;
+  margin-left: 56%;
+  border: solid thin black;
+  border-radius: 30px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
 }
 
 .tag-15 {
-  margin-top: -24.5px;
-  margin-left: 50%;
+  margin-top: -24px;
+  margin-left: 40%;
   border: solid thin black;
   border-radius: 30px;
   width: 150px;
-}
-
-.tag-16 {
-  margin-top: -24.5px;
-  margin-left: 25%;
-  border: solid thin black;
-  border-radius: 30px;
-  width: 150px;
+  display: flex;
+  justify-content: center;
 }
 
 
-.tag-5,
-.tag-6,
-.tag-7,
-.tag-8,
-.tag-9,
-.tag-10,
-.tag-11,
-.tag-12,
-.tag-13,
-.tag-14,
-.tag-15,
-.tag-16 {
-  margin-top: -10px;
+
+
+
+
+.description {
+  font-size: 25px;
+  font-family: "Gill Sans MT";
+  margin-top:200px;
+  margin-left: 20px;
+  background-color: white;
+  background-size:auto;
 }
-
-
 
 
 
@@ -394,23 +415,18 @@ body {
   border-radius: 50px;
   width: 95%;
   height: 65px;
-  margin-top: 1400px;
+  margin-top: 150px;
   margin-left: 30px;
 }
 
 .footer-text {
   font-size: 15px;
-  font-family: arial;
-  margin-top: -40px;
-  margin-left: 20px;
+  font-family: "Gill Sans MT";
+  margin-left: 50px;
+  margin-top: 22px;
 }
 
-.social-media-icons {
-  width: 160px;
-  height: 30px;
-  margin-left: 80%;
-  padding-top: 15px;
-}
+
 
 /* Media Queries */
 @media only screen and (max-width: 768px) {
@@ -435,7 +451,4 @@ body {
     margin-right: 5%;
   }
 
-  .social-media-icons {
-    margin-left: 5%;
-  }
 }
